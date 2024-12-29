@@ -1,0 +1,32 @@
+.Dashboard {
+    margin: 80px 40px 50px;
+
+}
+
+.Dashboard ul {
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    border-bottom: 1px solid #4c4a4625;
+
+}
+
+.Dashboard h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Dashboard ul li {
+
+    list-style: none;
+    color: grey;
+    padding-bottom: 15px;
+}
+
+.Dashboard ul li.active {
+
+    list-style: none;
+    color: black;
+    border-bottom: 2px solid #000000;
+
+}

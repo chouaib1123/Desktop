@@ -1,0 +1,94 @@
+.Product {
+  margin-top: 50px;
+  margin-left: 100px;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.productSection {
+  display: flex;
+  text-align: right;
+  gap: 30px;
+  margin: 50px 100px;
+}
+
+.productSection .Details {
+  margin-left: 100px;
+}
+
+.productSection .Details h4 {
+  margin-bottom: 20px;
+}
+
+.productSection .Details .addcart {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+  justify-content: flex-end;
+}
+
+.productSection .Details .addcart .Counter {
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
+
+  background-color: rgba(128, 128, 128, 0.211);
+  border-radius: 5px;
+  width: 100px;
+  padding: 15px 10px;
+  justify-content: center;
+}
+
+.productSection .Details .addcart .AddPanier {
+  padding: 15px 150px;
+  background-color: rgba(128, 128, 128, 0.211);
+  border: none;
+  transition: 0.3s all;
+
+  font-size: 20px;
+  font-family: "Rubik";
+}
+
+.productSection .Details .addcart button:hover {
+  background-color: rgba(128, 128, 128, 0.978);
+}
+
+.productSection .Details .addcart .Counter button {
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+.NoProductFound {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.productSection .Details .category span {
+  color: grey;
+}
+
+.productSection .Details p {
+  margin: 40px 0;
+  color: grey;
+}
+
+.productSection .Details .stars img {
+  height: 30px;
+  margin-top: 50px;
+}
+
+.productSection .Details .price {
+  color: #a18a68;
+}
+
+.Product img {
+  height: 400px;
+}

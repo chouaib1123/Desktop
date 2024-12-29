@@ -1,0 +1,19 @@
+.addproduct-form {
+    width: 600px;
+    margin: 100px auto;
+
+}
+
+.addproduct-form button {
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.addproduct-form input {
+    margin: 40px auto;
+}

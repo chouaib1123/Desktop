@@ -1,0 +1,35 @@
+.Profil input {
+
+    width: 350px;
+    margin: 0 auto;
+}
+
+.AlignItems {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Profil label {
+    margin: 40px auto 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Profil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Profil button {
+    background-color: black;
+    width: 350px;
+    color: white;
+    padding: 10px 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 70px auto;
+
+}

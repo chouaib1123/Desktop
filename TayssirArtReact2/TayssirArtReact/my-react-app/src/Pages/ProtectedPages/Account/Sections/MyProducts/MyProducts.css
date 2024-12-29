@@ -1,0 +1,42 @@
+.myproducts {
+    margin: 0 80px;
+    position: relative;
+}
+
+
+.myproducts .top {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.myproducts .top a {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.myproducts .Search {
+    width: 90%;
+}
+
+
+
+
+.myproducts .myproduct-item {
+    border: 1px solid grey;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: auto 10% 1fr 20% auto;
+    align-items: center;
+}
+
+.myproducts .myproduct-item * {
+    text-align: center;
+}
+
+
+.IdentifiantImage img {
+    width: 24px;
+}

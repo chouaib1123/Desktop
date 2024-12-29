@@ -1,0 +1,60 @@
+.commandes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.commande-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.commande-info {
+    display: grid;
+    grid-template-columns: 20% 1fr 20% 20%;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+
+.panier-item {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    text-align: right;
+    gap: 10px;
+
+    margin-top: 10px;
+
+}
+
+.panier-quantity {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.paniers-list span {
+    color: gray;
+}
+
+.paniers-list {
+    margin-bottom: 30px;
+    display: none;
+}
+
+.commande-item.active .paniers-list {
+
+    display: block;
+}
